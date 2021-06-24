@@ -1,0 +1,16 @@
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        # Overide conflicts with path and folder name
+        Options -MultiViews
+    </IfModule>
+
+    # Enable rewrite engine
+    RewriteEngine On
+
+    # Redirect evrything to index.php
+    RewriteRule ^(.*)$ index.php [QSA,L]
+
+    # Handle Authorization Header
+    #RewriteCond %{HTTP:Authorization} .
+    #RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+</IfModule>
