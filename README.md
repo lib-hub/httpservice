@@ -10,6 +10,7 @@ HttpService is a tiny framework to quickly implement a lightweight RESTful PHP w
 ### Refactor
 use all of PHP 7.4 features
 
+### Implement validator
 
 ### Implement smart routing
 Done a first implementation
