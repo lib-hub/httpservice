@@ -1,7 +1,7 @@
 {
   "name": "lib-hub/httpservice",
   "description": "HttpService is a tiny framework to quickly implement a lightweight RESTful web server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "project",
   "authors": [
     {
@@ -16,5 +16,12 @@
     "ext-curl": "*",
     "php-di/php-di": "^6.0",
     "vlucas/phpdotenv": "^4.1"
-  }
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/lib-hub/httpservice"
+    }
+  ],
+  "license": "MIT"
 }

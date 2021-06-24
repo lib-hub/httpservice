@@ -1,5 +1,8 @@
 # HttpService
 
+[![PHP version](https://img.shields.io/badge/PHP-7.4-787CB5.svg?style=flat&logo=PHP)](https://docs.npmjs.com)
+[![Project version](https://img.shields.io/badge/Version-1.0.1-informational.svg?style=flat)]()
+
 HttpService is a tiny framework to quickly implement a lightweight RESTful PHP web server.
 
 # TODO
